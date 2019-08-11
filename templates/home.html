@@ -1,0 +1,161 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+
+
+<main role="main">
+
+  <section class="jumbotron text-center" >
+    <div class="container">
+     
+      <h1 class="jumbotron-heading">M.B. Govt. P.G. College Blog</h1>
+      <p  class="lead text-muted">This is blog website for the students of M. B. Govt. P. G. College. Students can access to their accounts by logging in and sign in if they don't have an account, then can easily reach to their fellow students of respective departments in the blog sections of the respective department.<br/>You can visit the official website of the Kumaun University by clicking on the button given below.</p>
+      <p>
+        <a href="http://kunainital.ac.in" target="_blank" class="btn btn-primary my-2">official site</a>
+        
+      </p>
+   
+    
+    </div>
+  </section>
+
+  <div class="album py-5 bg-light">
+    <div class="container">
+
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <div class="card-body">
+              <p class="card-text">BOTANY</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                   
+                  <a href="{% url 'botanyhome' %}" class="btn btn-sm btn-outline-secondary">Visit</a>
+                </div>
+                <small class="text-muted"></small>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <div class="card-body">
+              <p class="card-text">COMMERCE</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="{% url 'commercehome' %}" class="btn btn-sm btn-outline-secondary">Visit</a>
+                  
+                </div>
+                <small class="text-muted"></small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <div class="card-body" >
+              <p class="card-text">COMPUTER SCIENCE</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="{% url 'cshome' %}" class="btn btn-sm btn-outline-secondary">Visit</a>
+                </div>
+                <small class="text-muted"></small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+             <div class="card-body">
+              <p class="card-text">GEOGRAPHY</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="{% url 'geographyhome' %}" class="btn btn-sm btn-outline-secondary">Visit</a>
+                  
+                </div>
+                <small class="text-muted"></small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <div class="card-body">
+              <p class="card-text">HISTORY</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="{% url 'historyhome' %}" class="btn btn-sm btn-outline-secondary">Visit</a>
+                </div>
+                <small class="text-muted"></small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <div class="card-body">
+              <p class="card-text">MATHEMATICS</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="{% url 'mathhome' %}" class="btn btn-sm btn-outline-secondary">Visit</a>
+                </div>
+                <small class="text-muted"></small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <div class="card-body">
+              <p class="card-text">PHYSICS</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="{% url 'physicshome' %}" class="btn btn-sm btn-outline-secondary">Visit</a>
+                </div>
+                <small class="text-muted"></small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <div class="card-body">
+              <p class="card-text">YOGA</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="{% url 'yogahome' %}" class="btn btn-sm btn-outline-secondary">Visit</a>
+                  
+                </div>
+                <small class="text-muted"></small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <div class="card-body">
+              <p class="card-text">ZOOLOGY</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="{% url 'zoologyhome' %}" class="btn btn-sm btn-outline-secondary">Visit</a>
+                  
+                </div>
+                <small class="text-muted"></small>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+
+
+</main>
+
+{% endblock %} 
